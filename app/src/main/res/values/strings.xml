@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Campus Connect-AIACTR</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="welcome">WELCOME!</string>
+    <string name="to_campus_connect">to campus connect - AIACTR</string>
+    <string name="tvStudent">STUDENT</string>
+    <string name="faculty">FACULTY</string>
+    <string name="home">HOME</string>
+    <string name="introduction">AIACTR is functioning from its Campus loacted at Geeta Colony, East Delhi. The Institute has an area of 7.8 acres at Geeta colony in Which a State-of-Art Campus with Ultra-modern facilities and lush green ambiance all around is built. The foundation Stone of the new Campus was laid by the previous Honorable Chief Minister of Delhi Mrs.Sheila Dixit on 24th May 2006. </string>
+</resources>

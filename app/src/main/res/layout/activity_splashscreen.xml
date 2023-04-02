@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    android:layout_height="match_parent"
+    tools:context=".splashscreen">
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/launcherLottie"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:lottie_rawRes="@raw/launcherscreen"
+        app:lottie_autoPlay="true"
+        android:layout_margin="11dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tvWelcome1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvWelcome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/to_campus_connect"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        />
+
+</LinearLayout>

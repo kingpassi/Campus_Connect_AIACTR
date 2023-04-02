@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".StudentFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="11dp"
+        app:cardUseCompatPadding="true">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal"
+          android:background="@color/colorOne">
+
+        <TextView
+            android:id="@+id/tvStudentBtech"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:text="Bachelor of Technology"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+           android:layout_margin="5dp"
+            android:layout_weight="0.8"
+            />
+
+
+              <ImageView
+                  android:id="@+id/imgStudentBTechNext"
+                  android:layout_width="5dp"
+                  android:layout_height="match_parent"
+                  android:layout_marginEnd="2dp"
+                  android:src="@drawable/imgnext"
+                  android:layout_weight="0.2"
+                  />
+
+
+
+      </LinearLayout>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="11dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/colorOne">
+
+            <TextView
+                android:id="@+id/tvStudentMtech"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:text="Master of Technology"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="0.8"
+                />
+
+
+            <ImageView
+                android:id="@+id/imgStudentMTechNext"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="2dp"
+                android:src="@drawable/imgnext"
+                android:layout_weight="0.2"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="11dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/colorOne">
+
+            <TextView
+                android:id="@+id/tvStudentcommunity"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:text="Student Community"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="0.8"
+                />
+
+
+            <ImageView
+                android:id="@+id/imgStudentcommunityNext"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="2dp"
+                android:src="@drawable/imgnext"
+                android:layout_weight="0.2"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</LinearLayout>

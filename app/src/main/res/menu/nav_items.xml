@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/home"
+    android:title="Home"
+    android:icon="@drawable/home"
+    />
+    <item android:id="@+id/faculty"
+        android:title="Faculty"
+       android:icon="@drawable/teacher"
+        />
+
+    <item android:id="@+id/notice"
+        android:icon="@drawable/baseline_notifications_active_24"
+        android:title="Notice"
+        />
+
+    <item android:id="@+id/student"
+        android:title="Student"
+        android:icon="@drawable/students"
+        />
+    <item android:id="@+id/other"
+        android:title="Others"
+        android:icon="@drawable/baseline_settings_24"
+        />
+
+
+
+
+</menu>
