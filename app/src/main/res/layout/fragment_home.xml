@@ -3,145 +3,238 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:src="@drawable/logo"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="Ambedkar Institute of Advanced Communication Technologies and Research, Geeta Colony, Delhi"
-            android:background="@color/purple_200"
-            android:gravity="center"
-            android:textSize="12sp"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            />
-
-    </LinearLayout>
-
-
-    <ViewFlipper
-        android:id="@+id/viewFlipper"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:inAnimation="@android:anim/slide_in_left"
-        android:outAnimation="@android:anim/slide_out_right"
-        android:autoStart="true"
-        android:flipInterval="2000"
-        android:layout_margin="5dp">
-
-        <ImageView
-            android:id="@+id/bannerOne"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:src="@drawable/bannerone"
-            />
-        <ImageView
-            android:id="@+id/bannerTwo"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:src="@drawable/bannertwo"
-            />
-        <ImageView
-            android:id="@+id/bannerThree"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:src="@drawable/bannerthree"
-            />
-
-        <ImageView
-            android:id="@+id/bannerFour"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:src="@drawable/bannerfour"
-            />
-
-
-    </ViewFlipper>
-
-    <TextView
-        android:id="@+id/tvIntroHomeFragment"
-        android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:text="@string/introduction"
-        android:textSize="12sp"
-        android:textStyle="italic"
-        android:layout_margin="5dp"
-        />
-
-
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="160dp"
-        android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:orientation="vertical"
-            android:padding="5dp"
-            android:layout_margin="5dp"
-            >
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="130dp"
-                android:src="@drawable/antiragging"
-                />
-           <TextView
-               android:layout_width="match_parent"
-               android:layout_height="20dp"
-               android:text="Anti-Ragging"
-               android:textColor="@color/black"
-               android:textSize="10sp"
-               android:gravity="center"
-               />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:orientation="vertical"
-            android:padding="5dp"
-            android:layout_margin="5dp"
-            >
-            <ImageView
+
+
+
+
+
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="130dp"
-                android:src="@drawable/ipulogo"
-                />
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:src="@drawable/logo"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:text="Ambedkar Institute of Advanced Communication Technologies and Research, Geeta Colony, Delhi"
+                    android:background="@color/purple_200"
+                    android:gravity="center"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+
+            <ViewFlipper
+                android:id="@+id/viewFlipper"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:inAnimation="@android:anim/slide_in_left"
+                android:outAnimation="@android:anim/slide_out_right"
+                android:autoStart="true"
+                android:layout_margin="@dimen/_2sdp"
+                android:flipInterval="2000">
+
+                <ImageView
+                    android:id="@+id/bannerOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:src="@drawable/bannerone"
+                    />
+                <ImageView
+                    android:id="@+id/bannerTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:src="@drawable/bannertwo"
+                    />
+                <ImageView
+                    android:id="@+id/bannerThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:src="@drawable/bannerthree"
+                    />
+
+                <ImageView
+                    android:id="@+id/bannerFour"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:src="@drawable/bannerfour"
+                    />
+
+
+            </ViewFlipper>
+
             <TextView
+                android:id="@+id/tvIntroHomeFragment"
                 android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:text="Accreditations and Affiliations"
-                android:textColor="@color/black"
-                android:textSize="10sp"
-                android:gravity="center"
-
+                android:layout_height="@dimen/_60sdp"
+                android:text="@string/introduction"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="italic"
+                android:layout_margin="@dimen/_5sdp"
                 />
 
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_160sdp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_150sdp"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_weight="0.5"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_110sdp"
+                        android:src="@drawable/antiragging"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_20sdp"
+                        android:text="Anti-Ragging"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_150sdp"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_weight="0.5"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_110sdp"
+                        android:src="@drawable/ipulogo"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_20sdp"
+                        android:text="Accreditations and Affiliations"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:gravity="center"
+
+                        />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </LinearLayout>
-
-
-
-
-
-
-
-
-
-
-
-    </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

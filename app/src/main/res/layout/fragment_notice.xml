@@ -4,224 +4,314 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     tools:context=".NoticeFragment">
 
-    <androidx.cardview.widget.CardView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="95dp"
-        app:cardMaxElevation="8dp"
-        app:cardCornerRadius="11dp"
-        app:cardUseCompatPadding="true">
+        android:layout_height="wrap_content">
+
+
+
+
+
+
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:background="@color/colorOne">
+            android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/tvNoticeTPO"
-                android:layout_width="75dp"
-                android:layout_height="match_parent"
-                android:text="Training and Placement"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:layout_margin="5dp"
-                android:layout_weight="0.8"
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/TNPCardView"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                app:cardMaxElevation="8dp"
+                app:cardCornerRadius="11dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/colorOne">
+
+                    <TextView
+                        android:id="@+id/tvNoticeTPO"
+                        android:layout_width="75dp"
+                        android:layout_height="match_parent"
+                        android:text="Training and Placement"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.8"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/imgNoticeTPONext"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="2dp"
+                        android:src="@drawable/imgnext"
+                        android:layout_weight="0.2"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/AcademicCalanderCardView"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                app:cardMaxElevation="8dp"
+                app:cardCornerRadius="11dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/colorOne">
+
+                    <TextView
+                        android:id="@+id/tvNoticeACalendar"
+                        android:layout_width="75dp"
+                        android:layout_height="match_parent"
+                        android:text="Academic Calendar"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.8"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/imgNoticeACalendarNext"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="2dp"
+                        android:src="@drawable/imgnext"
+                        android:layout_weight="0.2"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ScholarshipCardView"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                app:cardMaxElevation="8dp"
+                app:cardCornerRadius="11dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/colorOne">
+
+                    <TextView
+                        android:id="@+id/tvNoticeScholarship"
+                        android:layout_width="75dp"
+                        android:layout_height="match_parent"
+                        android:text="College Scholarship"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.8"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/imgNoticeScholarshipNext"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="2dp"
+                        android:src="@drawable/imgnext"
+                        android:layout_weight="0.2"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/UpcomingEvents"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                app:cardMaxElevation="8dp"
+                app:cardCornerRadius="11dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/colorOne">
+
+                    <TextView
+                        android:id="@+id/tvNoticeEvents"
+                        android:layout_width="75dp"
+                        android:layout_height="match_parent"
+                        android:text="Upcoming Events"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.8"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/imgNoticeEventsNext"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="2dp"
+                        android:src="@drawable/imgnext"
+                        android:layout_weight="0.2"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/AnnualFeesCardView"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                app:cardMaxElevation="8dp"
+                app:cardCornerRadius="11dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/colorOne">
+
+                    <TextView
+                        android:id="@+id/tvNoticeAFees"
+                        android:layout_width="75dp"
+                        android:layout_height="match_parent"
+                        android:text="Annual Fee Notice"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.8"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/imgNoticeAFeesNext"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="2dp"
+                        android:src="@drawable/imgnext"
+                        android:layout_weight="0.2"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 />
-
-
-            <ImageView
-                android:id="@+id/imgNoticeTPONext"
-                android:layout_width="5dp"
-                android:layout_height="match_parent"
-                android:layout_marginEnd="2dp"
-                android:src="@drawable/imgnext"
-                android:layout_weight="0.2"
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 />
-
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
 
 
         </LinearLayout>
 
 
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="95dp"
-        app:cardMaxElevation="8dp"
-        app:cardCornerRadius="11dp"
-        app:cardUseCompatPadding="true">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:background="@color/colorOne">
-
-            <TextView
-                android:id="@+id/tvNoticeACalendar"
-                android:layout_width="75dp"
-                android:layout_height="match_parent"
-                android:text="Academic Calendar"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:layout_margin="5dp"
-                android:layout_weight="0.8"
-                />
-
-
-            <ImageView
-                android:id="@+id/imgNoticeACalendarNext"
-                android:layout_width="5dp"
-                android:layout_height="match_parent"
-                android:layout_marginEnd="2dp"
-                android:src="@drawable/imgnext"
-                android:layout_weight="0.2"
-                />
-
-
-
-        </LinearLayout>
-
-
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="95dp"
-        app:cardMaxElevation="8dp"
-        app:cardCornerRadius="11dp"
-        app:cardUseCompatPadding="true">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:background="@color/colorOne">
-
-            <TextView
-                android:id="@+id/tvNoticeScholarship"
-                android:layout_width="75dp"
-                android:layout_height="match_parent"
-                android:text="College Scholarship"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:layout_margin="5dp"
-                android:layout_weight="0.8"
-                />
-
-
-            <ImageView
-                android:id="@+id/imgNoticeScholarshipNext"
-                android:layout_width="5dp"
-                android:layout_height="match_parent"
-                android:layout_marginEnd="2dp"
-                android:src="@drawable/imgnext"
-                android:layout_weight="0.2"
-                />
-
-
-
-        </LinearLayout>
-
-
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="95dp"
-        app:cardMaxElevation="8dp"
-        app:cardCornerRadius="11dp"
-        app:cardUseCompatPadding="true">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:background="@color/colorOne">
-
-            <TextView
-                android:id="@+id/tvNoticeEvents"
-                android:layout_width="75dp"
-                android:layout_height="match_parent"
-                android:text="Upcoming Events"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:layout_margin="5dp"
-                android:layout_weight="0.8"
-                />
-
-
-            <ImageView
-                android:id="@+id/imgNoticeEventsNext"
-                android:layout_width="5dp"
-                android:layout_height="match_parent"
-                android:layout_marginEnd="2dp"
-                android:src="@drawable/imgnext"
-                android:layout_weight="0.2"
-                />
-
-
-
-        </LinearLayout>
-
-
-
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="95dp"
-        app:cardMaxElevation="8dp"
-        app:cardCornerRadius="11dp"
-        app:cardUseCompatPadding="true">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:background="@color/colorOne">
-
-            <TextView
-                android:id="@+id/tvNoticeAFees"
-                android:layout_width="75dp"
-                android:layout_height="match_parent"
-                android:text="Annual Fees"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:layout_margin="5dp"
-                android:layout_weight="0.8"
-                />
-
-
-            <ImageView
-                android:id="@+id/imgNoticeAFeesNext"
-                android:layout_width="5dp"
-                android:layout_height="match_parent"
-                android:layout_marginEnd="2dp"
-                android:src="@drawable/imgnext"
-                android:layout_weight="0.2"
-                />
-
-
-
-        </LinearLayout>
-
-
-
-    </androidx.cardview.widget.CardView>
-
-
-
+    </ScrollView>
 </LinearLayout>

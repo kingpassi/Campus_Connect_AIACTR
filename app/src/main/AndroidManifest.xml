@@ -12,18 +12,56 @@
         android:theme="@style/Theme.CampusConnectAIACTR"
         tools:targetApi="31">
         <activity
+            android:name=".StudentCommunityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MTechStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BTechStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnnualFeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpcomingEventsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScholarshipActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AcademicCalanderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TNPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EEEFacultyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SAHFacultyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CSEFacultyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ECEFacultyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DirectorIntroActivity"
+            android:exported="false" />
+        <activity
             android:name=".splashscreen"
-            android:exported="true"    >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
-            android:exported="false"/>
+            android:exported="false" />
     </application>
 
 </manifest>
