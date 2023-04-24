@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/baseline_settings_24"
-    tools:context=".OthersFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+     tools:context=".OthersFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView
@@ -15,18 +15,226 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <TextView
+            <androidx.cardview.widget.CardView
+                android:id="@+id/OthersTNPCardView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="OTHERS"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:textSize="24sp"
-                android:padding="11dp"
-                android:background="@color/green"
-                />
+                android:layout_height="95dp"
+                app:cardMaxElevation="8dp"
+                app:cardCornerRadius="11dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/colorOne">
+
+                    <TextView
+                        android:id="@+id/tvOtherTNP"
+                        android:layout_width="75dp"
+                        android:layout_height="match_parent"
+                        android:text="Training and Placement"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.8"
+                        />
 
 
+                    <ImageView
+                        android:id="@+id/imgOtherTNPNext"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="2dp"
+                        android:src="@drawable/imgnext"
+                        android:layout_weight="0.2"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/OthersSocietyCardView"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                app:cardMaxElevation="8dp"
+                app:cardCornerRadius="11dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/colorOne">
+
+                    <TextView
+                        android:id="@+id/tvOtherSociety"
+                        android:layout_width="75dp"
+                        android:layout_height="match_parent"
+                        android:text="College Society"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.8"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/imgOtherSocityNext"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="2dp"
+                        android:src="@drawable/imgnext"
+                        android:layout_weight="0.2"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/OthersAntiRaggingCardView"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                app:cardMaxElevation="8dp"
+                app:cardCornerRadius="11dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/colorOne">
+
+                    <TextView
+                        android:id="@+id/tvOtherAntiRagging"
+                        android:layout_width="75dp"
+                        android:layout_height="match_parent"
+                        android:text="College Anti Ragging Cell"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.8"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/imgOtherAntiRaggingNext"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="2dp"
+                        android:src="@drawable/imgnext"
+                        android:layout_weight="0.2"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/OthersSafetyStructureCardView"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                app:cardMaxElevation="8dp"
+                app:cardCornerRadius="11dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/colorOne">
+
+                    <TextView
+                        android:id="@+id/tvOtherSafetyStructure"
+                        android:layout_width="75dp"
+                        android:layout_height="match_parent"
+                        android:text="College Safety Structure"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.8"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/imgOtherSafetyStructureNext"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="2dp"
+                        android:src="@drawable/imgnext"
+                        android:layout_weight="0.2"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/OthersLibraryCardView"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                app:cardMaxElevation="8dp"
+                app:cardCornerRadius="11dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/colorOne">
+
+                    <TextView
+                        android:id="@+id/tvOtherLibrary"
+                        android:layout_width="75dp"
+                        android:layout_height="match_parent"
+                        android:text="College Library"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.8"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/imgOtherLibraryNext"
+                        android:layout_width="5dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="2dp"
+                        android:src="@drawable/imgnext"
+                        android:layout_weight="0.2"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
 
