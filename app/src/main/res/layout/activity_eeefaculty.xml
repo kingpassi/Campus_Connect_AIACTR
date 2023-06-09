@@ -4,29 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EEEFacultyActivity">
-    <ScrollView
+    android:layout_margin="@dimen/_10sdp"
+    tools:context=".Activitys.EEEFacultyActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Welcome to EEE Faculty List"/>
-
-
-
-
-
-
-
-
-
-        </LinearLayout>
-
-    </ScrollView>
+        android:layout_height="wrap_content"
+        android:id="@+id/rvEEEFaculty"/>
 
 </LinearLayout>

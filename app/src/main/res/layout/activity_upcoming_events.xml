@@ -4,26 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UpcomingEventsActivity">
-    <ScrollView
+    android:layout_margin="@dimen/_10sdp"
+    tools:context=".Activitys.UpcomingEventsActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Welcome to Upcomming Events"
-                android:textStyle="bold"/>
+        android:layout_height="wrap_content"
+        android:id="@+id/rvUpcomingEvent">
 
+    </androidx.recyclerview.widget.RecyclerView>
 
-
-
-
-
-
-        </LinearLayout>
-    </ScrollView>
 
 </LinearLayout>

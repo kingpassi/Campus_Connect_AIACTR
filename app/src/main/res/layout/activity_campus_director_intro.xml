@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.CampusDirectorIntroActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="@dimen/_5sdp"
+                app:cardUseCompatPadding="true"
+                app:cardBackgroundColor="@color/purple_200"
+                app:cardCornerRadius="@dimen/_25sdp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_margin="@dimen/_11sdp"
+                        android:src="@drawable/directorpic"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Prof. Narendra Kumar "
+                        android:textColor="#fff"
+                        android:textSize="@dimen/_20sdp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Director of AIACTR"
+                        android:textSize="@dimen/_16sdp"
+                        android:textColor="#fff"
+                        android:layout_marginBottom="@dimen/_11sdp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="@dimen/_10sdp"
+               android:orientation="vertical">
+
+
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   app:cardUseCompatPadding="true"
+                   app:cardCornerRadius="@dimen/_11sdp"
+                   android:elevation="@dimen/_5sdp">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:padding="@dimen/_5sdp"
+                       android:orientation="vertical">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+                           <ImageView
+                               android:layout_width="@dimen/_20sdp"
+                               android:layout_height="@dimen/_20sdp"
+                               android:src="@drawable/book"/>
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="match_parent"
+                               android:gravity="center"
+                               android:text="Message for Students"
+                               android:textStyle="bold"
+                               android:layout_marginStart="@dimen/_5sdp"
+                               android:textSize="@dimen/_14sdp"/>
+                       </LinearLayout>
+                       <TextView
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_margin="@dimen/_5sdp"
+                           android:text="Dear students, it is my privilege to serve as the Campus Director of AIACTR. Education, research, and innovation are the pillars that shape our journey here. I encourage you to embrace the opportunities that lie before you and strive for excellence in all your endeavors. Remember, knowledge is the key that unlocks endless possibilities. With dedication and hard work, you can make a lasting impact on the world. Together, let's create a community that fosters growth, curiosity, and collaboration. I look forward to supporting and guiding you in your academic and personal development. Believe in yourself, dream big, and make your mark. Welcome to an exciting chapter of your educational journey!"
+                           android:textStyle="italic"
+                           android:textSize="@dimen/_12sdp"/>
+
+
+                   </LinearLayout>
+
+               </androidx.cardview.widget.CardView>
+
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   app:cardUseCompatPadding="true"
+                   app:cardCornerRadius="@dimen/_11sdp"
+                   android:elevation="@dimen/_5sdp">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:padding="@dimen/_5sdp"
+                       android:orientation="vertical">
+
+
+                       <LinearLayout
+                           android:layout_marginTop="@dimen/_5sdp"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content">
+                           <ImageView
+                               android:layout_width="@dimen/_20sdp"
+                               android:layout_height="@dimen/_20sdp"
+                               android:src="@drawable/study"/>
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="match_parent"
+                               android:gravity="center"
+                               android:text="Education Background"
+                               android:textStyle="bold"
+                               android:layout_marginStart="@dimen/_5sdp"
+                               android:textSize="@dimen/_14sdp"/>
+                       </LinearLayout>
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_margin="@dimen/_5sdp"
+                           android:orientation="vertical">
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:textStyle="italic"
+                               android:textSize="@dimen/_12sdp"
+                               android:text="B.E. in Electrical Engineering from IIT-Roorkee (Erstwhile UOR-Roorkee) in 1985"/>
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:textStyle="italic"
+                               android:textSize="@dimen/_12sdp"
+                               android:text="M.E. from Punjab Engineering College in 1987"/>
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:textStyle="italic"
+                               android:textSize="@dimen/_12sdp"
+                               android:text="Ph.D. from Delhi Technological University (Erstwhile Delhi College of Engineering) in the field of Electronic Instrumentation and Control in 2003"/>
+                       </LinearLayout>
+
+                   </LinearLayout>
+
+               </androidx.cardview.widget.CardView>
+
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   app:cardUseCompatPadding="true"
+                   app:cardCornerRadius="@dimen/_11sdp"
+                   android:elevation="@dimen/_5sdp">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:padding="@dimen/_5sdp"
+                       android:orientation="vertical">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_marginTop="@dimen/_5sdp"
+                           android:layout_height="wrap_content">
+                           <ImageView
+                               android:layout_width="@dimen/_20sdp"
+                               android:layout_height="@dimen/_20sdp"
+                               android:src="@drawable/successful"/>
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="match_parent"
+                               android:gravity="center"
+                               android:text="Achievements"
+                               android:textStyle="bold"
+                               android:layout_marginStart="@dimen/_5sdp"
+                               android:textSize="@dimen/_14sdp"/>
+                       </LinearLayout>
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_margin="@dimen/_5sdp"
+                           android:orientation="vertical">
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:textStyle="italic"
+                               android:textSize="@dimen/_12sdp"
+                               android:text="* Published over 100 research papers in various journals and conferences"/>
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:textStyle="italic"
+                               android:textSize="@dimen/_12sdp"
+                               android:text="* Authored three books"/>
+                           <TextView
+                               android:textStyle="italic"
+                               android:textSize="@dimen/_12sdp"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:text="* Holds two patents"/>
+                           <TextView
+                               android:textStyle="italic"
+                               android:textSize="@dimen/_12sdp"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:text="* Senior member of IEEE and life member of ISTE"/>
+                           <TextView
+                               android:textStyle="italic"
+                               android:textSize="@dimen/_12sdp"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:text="* Reviewer for IEEE Transactions on Power Electronics and IETE Journal of Research"/>
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:textStyle="italic"
+                               android:textSize="@dimen/_12sdp"
+                               android:text="* Organized conferences and faculty development programs"/>
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:textStyle="italic"
+                               android:textSize="@dimen/_12sdp"
+                               android:text="* Examiner of MS thesis at McGill University, Canada"/>
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:textStyle="italic"
+                               android:textSize="@dimen/_12sdp"
+                               android:text="* Expert committee member for academic audits and recruitment committees"/>
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:textStyle="italic"
+                               android:textSize="@dimen/_12sdp"
+                               android:text="* Won research excellence awards and best paper research award"/>
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:textStyle="italic"
+                               android:textSize="@dimen/_12sdp"
+                               android:text="* More than 34 years of academic experience"/>
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:textStyle="italic"
+                               android:textSize="@dimen/_12sdp"
+                               android:text="* Completed over 50 administrative assignments successfully"/>
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:textStyle="italic"
+                               android:textSize="@dimen/_12sdp"
+                               android:text="* Held various positions including Member of Board of Management, Dean, Chief Warden, Chairman of committees, Head of Department, etc., at DTU"/>
+                       </LinearLayout>
+                   </LinearLayout>
+
+               </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+           </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

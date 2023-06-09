@@ -11,47 +11,73 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CampusConnectAIACTR"
         tools:targetApi="31">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+
         <activity
-            android:name=".StudentCommunityActivity"
+            android:name=".Activitys.ECEStudentActivity"
+            android:exported="false" />
+        <activity android:name=".Activitys.CampusDirectorIntroActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".Activitys.SelectBatchYearActivity"
             android:exported="false" />
         <activity
-            android:name=".MTechStudentActivity"
+            android:name=".Activitys.CSEStudentActivity"
             android:exported="false" />
         <activity
-            android:name=".BTechStudentActivity"
+            android:name=".Activitys.StudentCommunityActivity"
             android:exported="false" />
         <activity
-            android:name=".AnnualFeeActivity"
+            android:name=".Activitys.MTechStudentActivity"
             android:exported="false" />
         <activity
-            android:name=".UpcomingEventsActivity"
+            android:name=".Activitys.BTechStudentActivity"
             android:exported="false" />
         <activity
-            android:name=".ScholarshipActivity"
+            android:name=".Activitys.AnnualFeeActivity"
             android:exported="false" />
         <activity
-            android:name=".AcademicCalanderActivity"
+            android:name=".Activitys.UpcomingEventsActivity"
             android:exported="false" />
         <activity
-            android:name=".TNPActivity"
+            android:name=".Activitys.ScholarshipActivity"
             android:exported="false" />
         <activity
-            android:name=".EEEFacultyActivity"
+            android:name=".Activitys.AcademicCalanderActivity"
             android:exported="false" />
         <activity
-            android:name=".SAHFacultyActivity"
+            android:name=".Activitys.TNPActivity"
             android:exported="false" />
         <activity
-            android:name=".CSEFacultyActivity"
+            android:name=".Activitys.EEEFacultyActivity"
+            android:exported="false" />
+      <activity android:name=".Activitys.SAHFacultyActivity"
+          android:exported="false"/>
+        <activity
+            android:name=".Activitys.CSEFacultyActivity"
             android:exported="false" />
         <activity
-            android:name=".ECEFacultyActivity"
+            android:name=".Activitys.ECEFacultyActivity"
             android:exported="false" />
         <activity
-            android:name=".DirectorIntroActivity"
+            android:name=".Activitys.DirectorIntroActivity"
             android:exported="false" />
         <activity
-            android:name=".splashscreen"
+            android:name=".splashscreen.splashscreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -60,7 +86,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".Activitys.MainActivity"
             android:exported="false" />
     </application>
 

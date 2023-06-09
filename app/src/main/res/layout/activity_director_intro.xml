@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gray_background"
-    tools:context=".DirectorIntroActivity">
+    tools:context=".Activitys.DirectorIntroActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -35,20 +35,20 @@
 
                 <ImageView
                     android:id="@+id/imageView"
-                    android:layout_width="@dimen/_80sdp"
-                    android:layout_height="@dimen/_80sdp"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
                     android:layout_marginTop="@dimen/_30sdp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/imgdirector" />
+                    app:srcCompat="@drawable/directorpic" />
 
                 <TextView
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_12sdp"
-                    android:text="Director Name (chintu)"
+                    android:text="Prof. Narendra Kumar "
                     android:textColor="@color/white"
                     android:textSize="@dimen/_20sdp"
                     android:textStyle="bold"

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".FacultyFragment">
+    tools:context=".Fragments.FacultyFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -166,6 +166,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
                 app:cardElevation="8dp"
+                android:visibility="gone"
                 app:cardCornerRadius="11dp"
                 app:cardUseCompatPadding="true"
                 >
@@ -226,7 +227,7 @@
                         android:id="@+id/tvFacultyMech"
                         android:layout_width="75dp"
                         android:layout_height="match_parent"
-                        android:text="Mech, EEE Faculty"
+                        android:text="MTech, EEE Faculty"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:gravity="center"

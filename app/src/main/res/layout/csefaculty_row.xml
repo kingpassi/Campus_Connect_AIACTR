@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/two"
+        android:id="@+id/imgCseFacultyProfilePhoto"
+        android:layout_height="@dimen/_60sdp"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvCseFacultyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            android:text="Name"/>
+        <TextView
+            android:id="@+id/tvCseFacultySubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:text="Subject"/>
+    </LinearLayout>
+
+</LinearLayout>

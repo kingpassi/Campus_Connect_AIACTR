@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.HomeFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -13,11 +14,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
-
-
-
-
 
 
             <LinearLayout
@@ -55,6 +51,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_150sdp"
                     android:src="@drawable/bannerone"
+                    android:layout_margin="@dimen/_5sdp"
                     />
                 <ImageView
                     android:id="@+id/bannerTwo"
@@ -80,13 +77,13 @@
             </ViewFlipper>
 
             <TextView
+                android:layout_margin="@dimen/_11sdp"
                 android:id="@+id/tvIntroHomeFragment"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_60sdp"
+                android:layout_height="wrap_content"
                 android:text="@string/introduction"
                 android:textSize="@dimen/_10sdp"
                 android:textStyle="italic"
-                android:layout_margin="@dimen/_5sdp"
                 />
 
 
@@ -113,7 +110,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_20sdp"
                         android:text="Anti-Ragging"
-                        android:textColor="@color/black"
+                        android:textColor="#000"
+                        android:textStyle="bold"
                         android:textSize="10sp"
                         android:gravity="center"
                         />
@@ -135,8 +133,9 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_20sdp"
-                        android:text="Accreditations and Affiliations"
-                        android:textColor="@color/black"
+                        android:text="Affiliation"
+                        android:textColor="#000"
+                        android:textStyle="bold"
                         android:textSize="10sp"
                         android:gravity="center"
 
@@ -146,89 +145,156 @@
 
 
 
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_160sdp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_weight="0.5"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_110sdp"
+                        android:src="@drawable/aicte_png"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_20sdp"
+                        android:text="Accreditation"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="10sp"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_150sdp"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_weight="0.5"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_110sdp"
+                        android:src="@drawable/ieee_png"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_20sdp"
+                        android:text="IEEE"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="10sp"
+                        android:gravity="center"
+
+                        />
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_160sdp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_150sdp"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_weight="0.5"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_110sdp"
+                        android:src="@drawable/nss_png"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_20sdp"
+                        android:text="NSS"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="10sp"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_150sdp"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_weight="0.5"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_110sdp"
+                        android:src="@drawable/nsut_png"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_20sdp"
+                        android:text="NSUT"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="10sp"
+                        android:gravity="center"
+
+                        />
+
+                </LinearLayout>
+
+
+
+
             </LinearLayout>
 
-
-
-            <Button
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:text="Campus Location"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="@dimen/_18sdp"
                 />
 
-            <Button
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                />
+                android:layout_height="@dimen/_350sdp">
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                <androidx.fragment.app.FragmentContainerView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_300sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/collegeMap"
+                    android:tag="FagMap"
+                    android:name="com.example.campusconnect_aiactr.Fragments.collegeMapsFragment"
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                />
+                    >
+                </androidx.fragment.app.FragmentContainerView>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 

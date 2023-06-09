@@ -4,33 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CSEFacultyActivity">
+    android:layout_margin="@dimen/_10sdp"
+    tools:context=".Activitys.CSEFacultyActivity">
 
-    <ScrollView
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-          <TextView
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:text="welcome to CSE Faculty List"
-              android:textStyle="bold"/>
-
-
-
-
-
-
-
-
-
-
-        </LinearLayout>
-
-    </ScrollView>
+        android:layout_height="wrap_content"
+        android:id="@+id/rvCSEFaculty"/>
 
 </LinearLayout>
