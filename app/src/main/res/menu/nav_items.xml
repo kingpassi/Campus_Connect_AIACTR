@@ -20,8 +20,8 @@
         android:icon="@drawable/students"
         />
     <item android:id="@+id/other"
-        android:title="Others"
-        android:icon="@drawable/baseline_settings_24"
+        android:title="Profile"
+        android:icon="@drawable/baseline_account_circle_24"
         />
 
 

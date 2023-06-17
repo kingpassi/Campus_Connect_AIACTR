@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#8BC34A"
     tools:context=".Activitys.SelectBatchYearActivity"
     android:orientation="vertical">
 
@@ -20,277 +19,157 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
+                android:layout_height="@dimen/_80sdp"
                 app:cardUseCompatPadding="true"
                 android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:id="@+id/tvSelectBatchYear2019"
-                    android:layout_marginStart="@dimen/_11sdp"
+                app:cardCornerRadius="@dimen/_20sdp">
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2019-23"
-                    android:textSize="@dimen/_24sdp"/>
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/tvSelectBatchYear2019"
+                        android:layout_marginStart="@dimen/_11sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2019-23"
+                        android:textSize="@dimen/_24sdp"/>
+
+                </LinearLayout>
+
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
+                android:layout_height="@dimen/_80sdp"
                 app:cardUseCompatPadding="true"
                 android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
+                app:cardCornerRadius="@dimen/_20sdp">
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/tvSelectBatchYear2018"
+                        android:layout_marginStart="@dimen/_11sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2018-22"
+                        android:textSize="@dimen/_24sdp"/>
+
+                </LinearLayout>
+
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
+                android:layout_height="@dimen/_80sdp"
                 app:cardUseCompatPadding="true"
                 android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
+                app:cardCornerRadius="@dimen/_20sdp">
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/_50sdp"
-            app:cardUseCompatPadding="true"
-            android:elevation="@dimen/_7sdp"
-            app:cardCornerRadius="@dimen/_11sdp">
-            <TextView
-                android:layout_marginStart="@dimen/_11sdp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="2020-24"
-                android:textSize="@dimen/_24sdp"/>
-        </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
-                app:cardUseCompatPadding="true"
-                android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/tvSelectBatchYear2017"
+                        android:layout_marginStart="@dimen/_11sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2017-21"
+                        android:textSize="@dimen/_24sdp"/>
+
+                </LinearLayout>
+
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
+                android:layout_height="@dimen/_80sdp"
                 app:cardUseCompatPadding="true"
                 android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
+                app:cardCornerRadius="@dimen/_20sdp">
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/tvSelectBatchYear2016"
+                        android:layout_marginStart="@dimen/_11sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2016-20"
+                        android:textSize="@dimen/_24sdp"/>
+
+                </LinearLayout>
+
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
+                android:layout_height="@dimen/_80sdp"
                 app:cardUseCompatPadding="true"
                 android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
+                app:cardCornerRadius="@dimen/_20sdp">
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/tvSelectBatchYear2015"
+                        android:layout_marginStart="@dimen/_11sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2015-19"
+                        android:textSize="@dimen/_24sdp"/>
+
+                </LinearLayout>
+
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
+                android:layout_height="@dimen/_80sdp"
                 app:cardUseCompatPadding="true"
                 android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
+                app:cardCornerRadius="@dimen/_20sdp">
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/tvSelectBatchYear2014"
+                        android:layout_marginStart="@dimen/_11sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2014-18"
+                        android:textSize="@dimen/_24sdp"/>
+
+                </LinearLayout>
+
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
+                android:layout_height="@dimen/_80sdp"
                 app:cardUseCompatPadding="true"
                 android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
+                app:cardCornerRadius="@dimen/_20sdp">
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
-                app:cardUseCompatPadding="true"
-                android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
-                app:cardUseCompatPadding="true"
-                android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
-                app:cardUseCompatPadding="true"
-                android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
-                app:cardUseCompatPadding="true"
-                android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
-                app:cardUseCompatPadding="true"
-                android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
-                app:cardUseCompatPadding="true"
-                android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
-                app:cardUseCompatPadding="true"
-                android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
-                app:cardUseCompatPadding="true"
-                android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
-                app:cardUseCompatPadding="true"
-                android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
-                app:cardUseCompatPadding="true"
-                android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
-                app:cardUseCompatPadding="true"
-                android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_50sdp"
-                app:cardUseCompatPadding="true"
-                android:elevation="@dimen/_7sdp"
-                app:cardCornerRadius="@dimen/_11sdp">
-                <TextView
-                    android:layout_marginStart="@dimen/_11sdp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="2020-24"
-                    android:textSize="@dimen/_24sdp"/>
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/tvSelectBatchYear2013"
+                        android:layout_marginStart="@dimen/_11sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2013-17"
+                        android:textSize="@dimen/_24sdp"/>
+
+                </LinearLayout>
+
             </androidx.cardview.widget.CardView>
 
 

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -28,10 +30,19 @@
             android:value="${MAPS_API_KEY}" />
 
         <activity
+            android:name=".Activitys.LoginActivity"
+            android:label="Login" />
+        <activity android:name=".Activitys.SignupActivity"
+            android:exported="false"/>
+        <activity
             android:name=".Activitys.ECEStudentActivity"
             android:exported="false" />
-        <activity android:name=".Activitys.CampusDirectorIntroActivity"
-            android:exported="false"/>
+        <activity
+            android:name=".Activitys.PdfViewerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activitys.CampusDirectorIntroActivity"
+            android:exported="false" />
         <activity
             android:name=".Activitys.SelectBatchYearActivity"
             android:exported="false" />
@@ -65,8 +76,9 @@
         <activity
             android:name=".Activitys.EEEFacultyActivity"
             android:exported="false" />
-      <activity android:name=".Activitys.SAHFacultyActivity"
-          android:exported="false"/>
+        <activity
+            android:name=".Activitys.SAHFacultyActivity"
+            android:exported="false" />
         <activity
             android:name=".Activitys.CSEFacultyActivity"
             android:exported="false" />

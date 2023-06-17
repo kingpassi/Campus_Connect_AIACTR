@@ -6,11 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".Activitys.ECEStudentActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="32sp"
-        android:text="ECE Student List"/>
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/rvECEStudent"/>
 
 
 </LinearLayout>

@@ -16,7 +16,7 @@ class UpcomingEventsActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        val arrUpcomingEvent=ArrayList<upcomingeventnoticeModel>().apply {
+        /*val arrUpcomingEvent=ArrayList<upcomingeventnoticeModel>().apply {
             add(upcomingeventnoticeModel("Title","shared By","DD/MM/YY"))
             add(upcomingeventnoticeModel("Title","shared By","DD/MM/YY"))
             add(upcomingeventnoticeModel("Title","shared By","DD/MM/YY"))
@@ -47,7 +47,7 @@ class UpcomingEventsActivity : AppCompatActivity() {
 
         binding.rvUpcomingEvent.layoutManager=LinearLayoutManager(this)
         val adapter=upcomingeventnoticeAdapter(arrUpcomingEvent)
-        binding.rvUpcomingEvent.adapter=adapter
+        binding.rvUpcomingEvent.adapter=adapter*/
 
 
     }

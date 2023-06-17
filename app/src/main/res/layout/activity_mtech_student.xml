@@ -4,19 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="@dimen/_11sdp"
+    android:orientation="vertical"
     tools:context=".Activitys.MTechStudentActivity">
-    <ScrollView
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Mtech Student List"
-                android:textStyle="bold"/>
-        </LinearLayout>
-    </ScrollView>
+        android:layout_height="wrap_content"
+        android:text="MTech(DC) Students"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="@dimen/_18sdp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:padding="@dimen/_11sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:id="@+id/rvMTechStudent"/>
+    <TextView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MTech(IS) Students"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="@dimen/_18sdp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:padding="@dimen/_11sdp"
+        android:id="@+id/rvMtechISStudent"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"/>
+
 
 </LinearLayout>

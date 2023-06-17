@@ -34,7 +34,7 @@
                     android:background="@color/colorOne">
 
                     <TextView
-                        android:id="@+id/tvECEStudent"
+                        android:id="@+id/tvECE2019Student"
                         android:layout_width="75dp"
                         android:layout_height="match_parent"
                         android:text="ECE Students"
@@ -47,7 +47,7 @@
 
 
                     <ImageView
-                        android:id="@+id/imgECEStudentNext"
+                        android:id="@+id/imgECE2019StudentNext"
                         android:layout_width="5dp"
                         android:layout_height="match_parent"
                         android:layout_marginEnd="2dp"
@@ -77,7 +77,7 @@
                     android:background="@color/colorOne">
 
                     <TextView
-                        android:id="@+id/tvCSEStudent"
+                        android:id="@+id/tvCSE2019Student"
                         android:layout_width="75dp"
                         android:layout_height="match_parent"
                         android:text="CSE Students"
@@ -90,7 +90,7 @@
 
 
                     <ImageView
-                        android:id="@+id/imgCSEStudentNext"
+                        android:id="@+id/imgCSE2019StudentNext"
                         android:layout_width="5dp"
                         android:layout_height="match_parent"
                         android:layout_marginEnd="2dp"

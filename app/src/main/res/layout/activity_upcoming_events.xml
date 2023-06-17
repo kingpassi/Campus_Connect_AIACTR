@@ -4,15 +4,159 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="@dimen/_10sdp"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
     tools:context=".Activitys.UpcomingEventsActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
+   <!-- <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/rvUpcomingEvent">
 
-    </androidx.recyclerview.widget.RecyclerView>
+    </androidx.recyclerview.widget.RecyclerView>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPCOMMING EVENT UPDATES"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#9C27B0"
+        android:textSize="@dimen/_18sdp"
+        android:textColor="#fff"/>
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               app:cardCornerRadius="@dimen/_11sdp"
+               android:elevation="@dimen/_5sdp"
+               app:cardUseCompatPadding="true">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+                   <ImageView
+                       android:layout_width="@dimen/_300sdp"
+                       android:layout_height="@dimen/_100sdp"
+                       android:padding="@dimen/_10sdp"
+                       android:src="@drawable/upcommingeventimgone"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Text msg : 01 June 2023"
+                       android:textStyle="bold"
+                       android:gravity="center"
+                       android:background="#9C27B0"
+                       android:textColor="#fff"/>
+
+
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               app:cardCornerRadius="@dimen/_11sdp"
+               android:elevation="@dimen/_5sdp"
+               app:cardUseCompatPadding="true">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+                   <ImageView
+                       android:layout_marginTop="@dimen/_11sdp"
+                       android:layout_width="match_parent"
+                       android:layout_height="@dimen/_600sdp"
+                       android:src="@drawable/upcommingeventimgtwo"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Text msg : 28 May 2023"
+                       android:textStyle="bold"
+                       android:gravity="center"
+                       android:background="#9C27B0"
+                       android:textColor="#fff"/>
+
+
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+
+
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               app:cardCornerRadius="@dimen/_11sdp"
+               android:elevation="@dimen/_5sdp"
+               app:cardUseCompatPadding="true">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+                   <ImageView
+                       android:layout_marginTop="@dimen/_11sdp"
+                       android:layout_width="match_parent"
+                       android:layout_height="@dimen/_600sdp"
+                       android:src="@drawable/upcommingeventimgthree"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Text msg : 25 May 2023"
+                       android:textStyle="bold"
+                       android:gravity="center"
+                       android:background="#9C27B0"
+                       android:textColor="#fff"/>
+
+
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               app:cardCornerRadius="@dimen/_11sdp"
+               android:elevation="@dimen/_5sdp"
+               app:cardUseCompatPadding="true">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+                   <ImageView
+                       android:layout_marginTop="@dimen/_11sdp"
+                       android:layout_width="match_parent"
+                       android:layout_height="@dimen/_400sdp"
+                       android:src="@drawable/upcommingeventimgfour"
+                       />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Text msg : 22 May 2023"
+                       android:textStyle="bold"
+                       android:gravity="center"
+                       android:background="#9C27B0"
+                       android:textColor="#fff"/>
+
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+
+
+       </LinearLayout>
+   </ScrollView>
+
 
 
 </LinearLayout>
