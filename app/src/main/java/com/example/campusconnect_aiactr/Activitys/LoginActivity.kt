@@ -9,7 +9,9 @@ import androidx.lifecycle.lifecycleScope
 import com.example.campusconnect_aiactr.UserRepo
 import com.example.campusconnect_aiactr.database.AppDatabase
 import com.example.campusconnect_aiactr.databinding.ActivityLoginBinding
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 
 class LoginActivity : AppCompatActivity() {
@@ -35,7 +37,9 @@ class LoginActivity : AppCompatActivity() {
 
             lifecycleScope.launch {
                 try {
-                   user = userrepo.readLoginData(email, password)
+                    withContext(Dispatchers.IO) {
+                        user = userrepo.readLoginData(email, password)
+                    }
                     // Handle the result here
                 } catch (e: Exception) {
                     // Handle any exceptions that may occur

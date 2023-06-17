@@ -9,6 +9,11 @@ import com.example.campusconnect_aiactr.Activitys.MainActivity
 import com.example.campusconnect_aiactr.R
 
 class splashscreen : AppCompatActivity() {
+
+    companion object{
+        const val PREF_LOGIN_NAME="login"
+
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splashscreen)
@@ -20,6 +25,8 @@ class splashscreen : AppCompatActivity() {
             //startActivity(splashScreen)
 
             val share = getSharedPreferences("login", AppCompatActivity.MODE_PRIVATE)
+
+
             val isLogin = share.getBoolean("flag", false)
             if (isLogin) {
                 val intent = Intent(this, MainActivity::class.java)

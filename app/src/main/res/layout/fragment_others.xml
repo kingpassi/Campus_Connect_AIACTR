@@ -343,6 +343,7 @@
                 android:text="Full Name"
                 android:textStyle="bold"/>
             <TextView
+                android:id="@+id/tvUserName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Yash Pasi"
@@ -381,6 +382,7 @@
                 android:text="Gmail"
                 android:textStyle="bold"/>
             <TextView
+                android:id="@+id/tvUserEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Yash.e21@nsut.ac.in"
@@ -421,7 +423,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="7065699632"
+                android:text="+91 *********"
                 android:textStyle="bold"
                 android:textColor="#000"/>
           </LinearLayout>
@@ -433,6 +435,7 @@
 
 
 <Button
+    android:id="@+id/btnLogOut"
     android:layout_width="match_parent"
     android:layout_height="@dimen/_60sdp"
     android:layout_margin="@dimen/_11sdp"
